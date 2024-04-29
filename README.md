@@ -18,7 +18,9 @@ OBS: Por padrão as imagens são baixadas do Hub Docker.
 
   -> `docker run -p 8080:80 nginx`: *Executa a imagem do nginx porém encaminhando a porta escolhida da minha máquina para a que a imagem está executando*.
   Ex: localhost:8080 sera encaminhando para localhost:80 da imagem executada.
-
+  
+  -> `crtl + d (sair do contêiner/bash)`
+  
   -> `docker exec sisakjysa ls`: *Vai executar o comando escolhido em um Container em execução escolhido pelo seu name ou id*
   OBS: Vai executar o comando `ls` no container que tem esse id `sisakjysa`
 
